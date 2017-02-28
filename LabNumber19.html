@@ -11,8 +11,26 @@
 
     <h1>Fruit Stand</h1>
 
-    <button type="button" onclick="fruit.push('Cherries')">Cherries</button><br>
-    <button type="button">Display</button>
+    <!-- List all buttons and the price for each item -->
+    <button type="button" onclick="fruit.push('Cherries');prices.push(2.75)">Cherries $2.75</button><br>
+    <button type="button" onclick="fruit.push('Apple');prices.push(2.00)">Apples $2.00</button><br>
+    <button type="button" onclick="fruit.push('Bananas');prices.push(1.00)">Bananas $1.00</button><br>
+    <button type="button" onclick="fruit.push('Kiwi');prices.push(3.00)">Kiwi $3.00</button><br>
+    <button type="button" onclick="fruit.push('Blueberries');prices.push(2.25)">Blueberries $2.25</button><br>
+    <button type="button" onclick="fruit.push('Blackberries');prices.push(2.50)">Blackberries $2.50</button><br>
+    <button type="button" onclick="fruit.push('Raspberries');prices.push(3.25)">Raspberries $3.25</button><br>
+    <button type="button" onclick="fruit.push('Pineapple');prices.push(4.00)">Cherries $4.00</button><br>
+
+    <!-- This is when you display the total for each item-->
+    <button type="button" onclick="display()">Display</button><br>
+
+    <!--<input type="text" name="total" id="total">-->
+
+    <table id="totalTable">
+
+
+
+    </table>
 
 
 </body>
